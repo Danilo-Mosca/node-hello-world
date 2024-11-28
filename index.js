@@ -17,7 +17,7 @@ if (!parolaPassata) {
 }
 // Visualizzo tutto in console log
 console.log(`Hello ${parolaPassata}`);
-let a = "Hello"
+
+
 // Altro metodo con l'operatore null coalescing operator ??
 console.log(`Hello ${process.argv[2] ?? "non hai passato nessun argomento"}`);  // con l'operatore null coalescing operator ??
-
