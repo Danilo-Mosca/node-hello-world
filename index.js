@@ -1,9 +1,8 @@
-// Semplice console log
+// Semplice console log di "Hello Boolean"
 console.log("Hello Boolean");
 
-// Passaggio di tutti argomenti
+// Lettura di tutti argomenti da me passati con la riga di comando
 console.log(process.argv);
 
-// Lettura di un argomento specifico: in questo caso il terzo
+// Lettura di un argomento specifico: in questo caso il terzo (equivalente al primo da me passato con la riga di comando da terminale)
 console.log(process.argv[2]);
-
